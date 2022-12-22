@@ -10,7 +10,7 @@ public class Main {
     }
     public static int add1(int [] arr) {
         int x = 0;
-        System.out.println("Преобразованный массив:");
+        System.out.println("Преобразованный массив: ");
         //проверка четного числа
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 == 0) {
