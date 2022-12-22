@@ -7,6 +7,8 @@ public class Main {
         }
         System.out.println("\b\n");
         add1(arr);
+        refundArray(arr);
+
         //System.out.println(add1(arr));
     }
     public static int add1(int [] arr) {
@@ -30,5 +32,15 @@ public class Main {
            }
         }
         return x;
+    }
+    //Возвращаем кусок списка с 3-го по 7-й элемент.
+    public static int refundArray(int [] arr) {
+        int x= 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (i > 1 && i < 7) {
+                x = arr[i];
+                System.out.print(x + ",");
+            }
+        }return x;
     }
 }
