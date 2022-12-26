@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Заданный массив :");
         int[] arr = {2,4,7,8,12,45,36,47,86,30,34,31,46,65,37,18};
         for (int y = 0; y < arr.length; y++) {
-        System.out.print(arr[y]+",");
+            System.out.print(arr[y]+",");
         }
         System.out.println("\b\n");
         add1(arr);
@@ -39,7 +39,7 @@ public class Main {
         int x= 0;
         System.out.println("Возвращаем кусок списка с 3-го по 7-й элемент.");
         for (int i = 0; i < arr.length; i++) {
-            if (i > 1 && i < 7) {
+            if (i > 3 && i < 7) {
                 x = arr[i];
                 System.out.print(x + ",");
             }
