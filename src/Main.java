@@ -39,7 +39,7 @@ public class Main {
         int x= 0;
         System.out.println("Возвращаем кусок списка с 3-го по 7-й элемент.");
         for (int i = 0; i < arr.length; i++) {
-            if (i > 3 && i < 7) {
+            if (i > 1 && i < 7) {
                 x = arr[i];
                 System.out.print(x + ",");
             }
