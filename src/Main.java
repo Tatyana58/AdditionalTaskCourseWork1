@@ -6,7 +6,7 @@ import java.util.Arrays;
 
  2. Все четные числа увеличиваем на единицу.
 
- 3. Возвращаем кусок списка с 3-го по 7-й элемент.
+ 3. Возвращаем кусок списка с 3-го по  7-й элемент.
  *
  */
 public class Main {
@@ -34,6 +34,7 @@ public class Main {
         }
         return newArr;
     }
+
     //Возвращаем кусок списка с 3-го по 7-й элемент.
     public static int[] refundArray(int [] arr) {
         int[] newArr = Arrays.copyOfRange(arr,2,7);
