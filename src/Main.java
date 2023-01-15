@@ -7,6 +7,7 @@
  3. Возвращаем кусок списка с 3-го по 7-й элемент.
  *
  */
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Заданный массив :");
